@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: rgb(248, 83, 65);
+  }
+
+  /* body { background-color: var(--blue); } */
+
+body{
+    font-family: "Poppins", sans-serif;
+background-color: rgb(26, 25, 25);
+}
+header{
+    padding: 10px 0;
+    margin: 10px;
+}
+.ham-burger-icon{
+    width: 20px;
+    display: none;
+}
+.ham-burger-icon img{
+width: 100%;
+height: 100%;
+}
+
+.logo h1{
+    font-style: italic;
+    font-weight: 600;
+    font-size:32px;
+    color: var(--primary);;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menus{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    
+ border-radius: 50px;
+
+}
+.menus a{
+ text-decoration: none;
+ color: white;
+ margin-right: 20px;
+ padding: 5px 12px;
+
+ border-radius: 50px;
+
+ transition: all ease .4s;
+}
+.menus a:hover{
+    background: var(--primary);
+}
+.menus .last-menu{
+    margin-right: 0;
+}
+
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color :white;
+}
+.shape{
+    font-family: "Grey Qo", cursive;
+}
+.banner-left, .banner-right{
+    width: 50%;
+}
+.banner-left h1{
+font-size: 48px;
+color: white;
+letter-spacing: 2;
+}
+.banner-left p{
+margin-bottom: 15px;
+}
+.btn{
+    text-decoration: none;
+ color: white;
+ padding: 10px 22px;
+background-color: var(--primary);
+ border-radius: 50px; 
+}
+.btn-2{
+    background-color: black;
+    border: 1px solid #ddd;
+}
+.img-div img{
+width: 100%;
+height: 100%;
+}
+.img-div{
+    position: relative;
+}
+.tutorial, .videos{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+
+
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.videos{
+    left: 0;
+    bottom: 80px;
+}
+.tutorial{
+    right: 0;
+    top:80px;
+}
+.color-div{
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.title{
+    text-align:center;
+    color: white;
+    margin: 50px 0;
+}
+.title h1{
+    font-size: 2.5em;
+}
+.title p{
+    text-wrap: wrap;
+}
+
+
+.card{
+    color: white;
+    text-align: center;
+}
+.card p{
+    color:#898686;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+
+    margin: 0 auto;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+border-radius: 10px;
+    background-color: #323131;
+    margin: 40px 0;
+}
+.left{
+    padding: 20px;
+}
+.left h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+.left p{
+    margin: 10px 0;
+    color:#898686;
+}
+.right{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+   margin-left: auto;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
