@@ -264,9 +264,57 @@ footer{
 
 
 
-.calculator{
-    background-color: black;
+.bmi-title{
+    margin-left: 20%;
 }
+
+.bmi-title .title{
+    text-align: left;
+}
+
+.calc{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color:#797777
+}
+.calc-title{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.chart-table,tr,th,td{
+    border: 1px solid #797777;
+border-collapse: collapse;
+padding: 10px;
+text-align: left;
+}
+th{
+    color:white
+}
+
+.calculator{
+    padding: 30px 0;
+}
+.top div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.top .btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.w-full{
+    width: 100%;
+    height: 40px;
+    border:0;
+    background-color:#696969;
+    border-radius: 10px;
+    color: #d9d9d9;
+    padding-left: 10px;
+}
+
 
 
 

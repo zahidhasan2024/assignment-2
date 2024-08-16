@@ -27,7 +27,7 @@
         margin: 0 auto;
     }
 
-    .team-grid{
+    .team-grid, .calc,.top div{
         grid-template-columns: 1fr;
     }
     .item{
