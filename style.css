@@ -71,16 +71,16 @@ nav{
 }
 
 .banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     color :white;
+    align-items: center;
 }
 .shape{
     font-family: "Grey Qo", cursive;
 }
 .banner-left, .banner-right{
-    width: 50%;
+    width: 100%;
 }
 .banner-left h1{
 font-size: 48px;

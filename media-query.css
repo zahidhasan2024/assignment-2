@@ -1,6 +1,6 @@
 @media screen  and (max-width:430px){
     .banner{
-        flex-direction: column;
+        grid-template-columns: 1fr;
         align-items: baseline;
     }
     .ham-burger-icon{
